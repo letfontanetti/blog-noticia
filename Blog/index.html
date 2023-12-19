@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog de Notícias</title>
+</head>
+<body id="principal">
+    <div id="sidebar-esquerda">
+        <div id="lista-categorias"></div>
+
+        <button id="add_categoria"><i class="fa-solid fa-plus"></i></button>
+    </div>
+
+
+    <div id="main-direita">
+        <div id="close-sidebar-div"></div>
+
+        <div id="main-header">
+            <div id="barra-pesquisa">
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                <input type="text" id="input-barra-pesquisa" placeholder="Busque por...">
+            </div>
+
+            <img src="img/notcia1.png" alt="" style="width: 100%;">
+
+            <button id="mostrar-catalogo" class="botao-main"><i class="fa-solid fa-bars"></i></button>
+
+            <button id="adicionar-noticia" class="botao-main"><i class="fa-solid fa-plus"></i></button>
+        </div>
+
+        <div id="main-catalogo"></div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/d1efe6d39d.js" crossorigin="anonymous"></script>
+    <script src="java.js"></script>
+</body>
+</html>
